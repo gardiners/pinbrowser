@@ -1,0 +1,21 @@
+Package: pinbrowser
+Title: Interactively browse pins and their metadata
+Version: 0.0.0.9000
+Authors@R: 
+    person("Sam", "Gardiner", , "sam.gardiner@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-6752-6969"))
+Description: Browse the content of boards created with the pins package. View
+  and search available pins, view their metadata, and generate code to read pins
+  into your current project.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Imports: 
+    cli,
+    dplyr (>= 1.1),
+    miniUI (>= 0.1.1),
+    pins (>= 1.0),
+    rstudioapi (>= 0.5),
+    shiny (>= 0.13),
+    tibble
