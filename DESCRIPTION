@@ -19,3 +19,5 @@ Imports:
     rstudioapi (>= 0.5),
     shiny (>= 0.13),
     tibble
+URL: https://github.com/gardiners/pinbrowser
+BugReports: https://github.com/gardiners/pinbrowser/issues
