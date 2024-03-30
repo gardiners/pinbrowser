@@ -1,5 +1,5 @@
 Package: pinbrowser
-Title: Interactively browse pins and their metadata
+Title: Interactively browse pins and their metadata in RStudio
 Version: 0.0.0.9000
 Authors@R: 
     person("Sam", "Gardiner", , "sam.gardiner@gmail.com", role = c("aut", "cre"),
