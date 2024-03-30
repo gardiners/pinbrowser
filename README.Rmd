@@ -1,0 +1,45 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# 📦 pinbrowser
+
+<!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+<!-- badges: end -->
+
+`pinbrowser` lets you interactively browse a board created with the [pins](https://pins.rstudio.com/) package. It currently has one useful function, `browse_board()`, which provides an RStudio viewer that allows you to explore pins and their metadata.
+
+## Installation
+
+You can install the development version of pinbrowser from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("gardiners/pinbrowser")
+```
+
+## Example
+
+Create a demo pin board and view its content in RStudio:
+
+``` r
+library(pinbrowser)
+
+my_demo_board <- board_demo()
+browse_board(my_demo_board)
+```
+
+![Screenshot of RStudio viewer containing pin metadata.](./man/figures/README-cards.png)
+
