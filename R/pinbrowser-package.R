@@ -13,3 +13,5 @@ NULL
 #' @import shiny miniUI rstudioapi bslib htmltools
 ## usethis namespace: end
 NULL
+
+globalVariables(c("BJsales", "beaver1", "name", "mtcars"))
