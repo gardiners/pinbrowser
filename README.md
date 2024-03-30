@@ -7,6 +7,9 @@
 
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![runiverse-package badge for pinbrowser
+package](https://gardiners.r-universe.dev/badges/pinbrowser)](https://gardiners.r-universe.dev/pinbrowser)
+[![R-CMD-check](https://github.com/gardiners/pinbrowser/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/gardiners/pinbrowser/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 `pinbrowser` lets you interactively browse a board created with the
